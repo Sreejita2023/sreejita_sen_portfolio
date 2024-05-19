@@ -21,7 +21,7 @@ function Skills_Slider() {
               className="w-36 min-w-fit h-fit flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg group relative hover:scale-[1.15] cursor-pointer"
               key={id}
             >
-              <div className="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none  transition-all duration-500">
+              <div className="h-full w-full rounded-lg border border-[#29126A] bg-[#29126A] shadow-none  transition-all duration-500">
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
                   <div className="h-8 sm:h-10">
                     <img
@@ -32,7 +32,7 @@ function Skills_Slider() {
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
-                  <p className="text-white text-sm sm:text-lg">{skill}</p>
+                  <p className="text-white text-base font-['Helvetica']">{skill}</p>
                 </div>
               </div>
             </div>

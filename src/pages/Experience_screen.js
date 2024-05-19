@@ -10,7 +10,7 @@ function E_page() {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
   return (
-    <div className=" bg-orange-50 flex flex-col items-center">
+    <div className=" bg-white font-['Helvetica'] flex flex-col items-center">
       <div className="w-10/12 grid grid-cols-1 py-8 gap-y-8">
         {experiences.map((data, index) => {
           return (
@@ -33,24 +33,24 @@ function E_page() {
               <div
                 className="flex flex-col items-start gap-y-2"
               >
-                <div className=" text-orange-950 text-[30px]  font-extrabold font-['Epilogue'] leading-[64px]">
+                <div className=" text-[#5625DE] text-[40px]  font-extrabold  leading-[64px]">
                   {data.company}
                 </div>
-                <div className=" text-orange-950 text-lg  font-normal font-['Epilogue'] leading-loose flex flex-row gap-x-2">
+                <div className=" text-orange-950 text-lg  font-normal leading-loose flex flex-row gap-x-2">
                   <div>{data.title}</div>
                   <div>{data.duration}</div>
                 </div>
-                <div className="  text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose grid grid-cols-1 gap-y-2">
+                <div className="  text-orange-950 text-opacity-60 text-base font-normal  leading-loose grid grid-cols-1 gap-y-2">
                   <div>{data.details}</div>
                   <div className="text-black">
-                    <span className="font-semibold text-black">
+                    <span className="font-semibold text-[#5625DE]">
                       Techstack Used:
                     </span>{" "}
                     {data.techstack}
                   </div>
                 </div>
                 <button
-                  className=' bg-white rounded-md shadow text-center text-orange-950 text-sm font-black font-["Epilogue"] uppercase px-8 py-4 transition delay-75 duration-300 ease-in-out hover:scale-110'
+                  className=' bg-[#FFD9D8] rounded-md shadow text-center text-orange-950 text-sm font-black  uppercase px-8 py-4 transition delay-75 duration-300 ease-in-out hover:scale-110'
                   onClick={() => openInNewTab(data.link)}
                 >
                   Learn More

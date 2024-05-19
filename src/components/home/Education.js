@@ -1,41 +1,32 @@
 import React, { useEffect, useRef } from "react";
-import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import { educations } from "../../utils/data/educationData";
-import { Glow, GlowCapture } from "@codaworks/react-glow";
-import { BsPersonWorkspace } from "react-icons/bs";
-import laptop from "../../assests/education/laptop.gif";
+import eduIcon from "../../assests/education/education_icon.svg"
+import SchoolIcon from '@mui/icons-material/School';
+
+import laptop from "../../assests/education/laptop.jpg";
 function Education() {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    <div className="bg-slate-800 left-0 right-0 relative z-10  flex flex-col items-center py-8">
+    <div className="bg-[#5022D2] left-0 right-0 relative z-10  flex flex-col items-center py-8 font-['Helvetica']">
       <div className="w-10/12 ">
-        <div className="LatestWork  text-white text-[30px] font-extrabold font-['Epilogue'] leading-[64px] mb-2">
-          Education
+        <div className="LatestWork  text-white text-[38px] tracking-tighter font-extrabold  leading-[64px] mb-8 uppercase">
+          Education :
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 gap-y-4">
           <div className="flex flex-col gap-6">
             {educations.map((education) => (
-              <GlowCapture>
-                <Glow
-                  color="#87C159"
-                  key={education.id}
-                  identifier={`education-${education.id}`}
-                >
-                  <div className="p-3 relative text-white border-2 rounded-md  border-white border-opacity-10 select-none glow:ring-1 glow:border-glow glow:ring-glow  glow:bg-glow/[.15] glow:transition-all glow:duration-300 ">
+                  <div className="px-2 py-8 relative text-white rounded-md bg-[#4017B4] flex flex-col gap-y-2 shadow-md hover:scale-105 transition ease-in-out duration-500">
                     <div className="flex justify-center">
-                      <p className="text-xs sm:text-sm text-[#87C159]">
+                      <p className="text-base text-[#FACED4] font-medium">
                         {education.duration}
                       </p>
                     </div>
-                    <div className="flex items-center gap-x-8 px-3 py-5">
-                      <div className="text-[#87C159] transition-all duration-300 hover:scale-125">
-                        <BsPersonWorkspace size={36} />
-                      </div>
+                    <div className="flex items-center gap-x-8 px-3">
+                      <img src={eduIcon} className="w-[40px] h-[40px] self-start"/>
                       <div>
-                        <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                        <p className="text-base sm:text-xl mb-2 font-extrabold uppercase">
                           {education.title}
                         </p>
                         <p className="text-sm sm:text-base">
@@ -44,11 +35,9 @@ function Education() {
                       </div>
                     </div>
                   </div>
-                </Glow>
-              </GlowCapture>
             ))}
           </div>
-          <img src={laptop}></img>
+          <img src={laptop} className=" w-full h-full "></img>
         </div>
       </div>
     </div>

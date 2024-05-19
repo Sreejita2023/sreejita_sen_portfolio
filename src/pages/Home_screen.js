@@ -21,11 +21,11 @@ function H_page() {
         <div className='w-full'>
         <Education/>
         </div>
-        <div className='w-full'>
-        <Testimonial/>
-        </div>
         <div className='w-full '>
         <About/>
+        </div>
+        <div className='w-full'>
+        <Testimonial/>
         </div>
        </div>
     </div>
