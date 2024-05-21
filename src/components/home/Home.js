@@ -31,25 +31,25 @@ function Home() {
         </div>
         <div className="flex flex-row py-6 gap-x-4 items-center">
           <div
-            className="cursor-pointer w-9 h-9"
+            className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.leetcode)}
           >
             <img src={leetcode} />
           </div>
           <div
-            className="cursor-pointer w-9 h-9"
+            className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.linkedIn)}
           >
             <img src={linkedin} />
           </div>
           <div
-            className="cursor-pointer w-9 h-9"
+            className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.github)}
           >
             <img src={github} />
           </div>
           <div
-            className="cursor-pointer w-9 h-9"
+            className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
             onClick={() => openInNewTab(contactsData.github)}
           >
             <img src={xtwitter} />

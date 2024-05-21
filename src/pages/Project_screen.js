@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { projectsData } from "../utils/data/projectsData";
 import github from "../assests/projects/github.svg";
 import web from "../assests/projects/web.svg";
+import { contactsData } from "../utils/data/contactsData";
 function P_page() {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");
@@ -14,62 +15,72 @@ function P_page() {
 
   return (
     <div>
-      <div className=" bg-orange-50 flex flex-col items-center py-4">
-        <div className="w-10/12 grid grid-cols-1 gap-y-12">
+      <div className=" bg-white flex flex-col items-center font-['Helvetica']">
+        <div className="w-full grid grid-cols-1  ">
+          {/* head */}
+          <div className="flex flex-col items-center py-20 gap-y-4">
+             <div className="text-black tracking-tighter font-extrabold text-[20px] uppercase" >Explore my Techstack</div>
+             <div className="text-[#5928E5] tracking-tighter font-extrabold text-[50px] uppercase">My Major Projects</div>
+             <div className="tracking-wider w-6/12  text-center">With our ready-to-use assets & step-by-step instructions, you’ll be designing a complete e-commerce website with all its bells and whistles…</div>
+          </div>
           {projectsData.map((data, index) => {
             return (
-              <div className="grid  grid-cols-1 place-items-center">
-                <div className="">
+              <div className="grid  grid-cols-1 place-items-center  py-32 bg-[#471DC4]">
+                <div className="bg-[#FFD9D9] w-10/12 flex flex-row justify-center items-center pt-6 pb-12">
                   <img
                     src={data.image}
                     alt="Logo"
-                    className=" w-[580px] h-[400px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300"
+                    className=" w-[700px] h-[500px] scale-150 self-center"
                   />
                 </div>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.8, y: 50 }}
-                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                  transition={{
-                    duration: 0.6,
-                    delay: 0,
-                    ease: [0, 0.71, 0.2, 1.01],
-                  }}
-                  className="flex flex-col items-center"
+                <div
+                  className="flex flex-col items-start w-10/12 py-4"
                 >
-                  <div className=" text-black text-[48px]  font-extrabold font-['Epilogue'] leading-[64px]">
+                  <div className=" text-white text-[38px] tracking-tighter  font-extrabold leading-[64px]">
                     {data.name}
                   </div>
                   <div className="flex flex-row gap-x-8 py-4">
                     <img
                       src={github}
-                      width={40}
-                      height={40}
-                      className="cursor-pointer"
+                      width={36}
+                      height={36}
+                      className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                       onClick={() => openInNewTab(data.code)}
                     />
                     <img
                       src={web}
-                      width={40}
-                      height={40}
-                      className="cursor-pointer"
+                      width={36}
+                      height={36}
+                      className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                       onClick={() => openInNewTab(data.demo)}
                     />
                   </div>
-                  <div className=" text-orange-950 text-lg  font-normal font-['Epilogue'] leading-loose">
-                    <span className="font-semibold text-black">
+                  <div className="text-lg  font-normal leading-loose text-white">
+                    <span className="font-semibold tracking-tight">
                       Techstack Used:
                     </span>{" "}
                     {data.tools.map((tool, id) => {
-                      return <span>{tool},</span>;
+                      return <span className="text-base tracking-wider">{tool},</span>;
                     })}
                   </div>
-                  <div className="  text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose grid grid-cols-1 self-center">
+                  <div className="  text-white text-base italic font-normal leading-loose grid grid-cols-1 self-center">
                     <div>{data.description}</div>
                   </div>
-                </motion.div>
+                </div>
               </div>
             );
           })}
+          {/* foot */}
+          <div className="flex flex-col items-center py-32 gap-y-10 bg-[#FFD9D9]">
+             <div className="text-[#5928E5] tracking-tighter font-extrabold text-[30px] uppercase">My Major Projects</div>
+             <div className="tracking-wider w-6/12  text-center">With our ready-to-use assets & step-by-step instructions, you’ll be designing a complete e-commerce website with all its bells and whistles…</div>
+             <button
+                  className='bg-[#5928E5] rounded-sm text-center text-[#FFD9D9] text-sm font-black capitalize tracking-tight px-10 py-4 transition duration-300 ease-in-out hover:text-white hover:scale-x-110 hover:tracking-wide'
+                  onClick={() => openInNewTab(contactsData.github)}
+                >
+                  Explore More
+                </button>
+          </div>
         </div>
       </div>
     </div>

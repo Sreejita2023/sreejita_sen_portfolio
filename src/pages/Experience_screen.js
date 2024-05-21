@@ -14,8 +14,8 @@ function E_page() {
       <div className="w-10/12 grid grid-cols-1 py-8 gap-y-8">
         {experiences.map((data, index) => {
           return (
-            <div className="grid md:grid-cols-2 grid-cols-1 items-center">
-              <div
+            <div className="grid md:grid-cols-2 grid-cols-1 items-center my-20 ">
+              <div classna
               >
                 <motion.img
                   initial={{ opacity: 0, scale: 0.8 ,y:50}}
@@ -33,7 +33,7 @@ function E_page() {
               <div
                 className="flex flex-col items-start gap-y-2"
               >
-                <div className=" text-[#5625DE] text-[40px]  font-extrabold  leading-[64px]">
+                <div className=" text-[#5625DE] text-[34px]  font-extrabold  leading-[64px] tracking-tighter">
                   {data.company}
                 </div>
                 <div className=" text-orange-950 text-lg  font-normal leading-loose flex flex-row gap-x-2">
@@ -50,7 +50,7 @@ function E_page() {
                   </div>
                 </div>
                 <button
-                  className=' bg-[#FFD9D8] rounded-md shadow text-center text-orange-950 text-sm font-black  uppercase px-8 py-4 transition delay-75 duration-300 ease-in-out hover:scale-110'
+                  className='bg-[#5928E5] rounded-sm text-center text-[#FFD9D9] text-sm font-black capitalize tracking-tight px-10 py-4 transition duration-300 ease-in-out hover:text-white hover:scale-x-110 hover:tracking-wider'
                   onClick={() => openInNewTab(data.link)}
                 >
                   Learn More

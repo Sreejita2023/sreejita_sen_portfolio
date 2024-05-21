@@ -10,7 +10,7 @@ function C_page() {
   }, []);
   return (
     <div className="bg-white flex flex-col items-center font-['Helvetica']">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 w-10/12  py-20 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 w-10/12  py-24 ">
         <div className="Rectangle  bg-[#FFD9D9] rounded-md py-7 flex flex-col gap-y-4 items-center ">
           <div className="GetInTouch text-[#5928E5] text-2xl font-extrabold tracking-tighter uppercase leading-loose ">
             Let's Collaborate
