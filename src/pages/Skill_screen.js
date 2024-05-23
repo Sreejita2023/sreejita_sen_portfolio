@@ -19,7 +19,7 @@ function S_page() {
         What I know...
       </div>
       {/* skills demonstration */}
-      <div className="grid lg:grid-cols-3 grid-cols-2 place-content-center w-10/12 gap-x-8 gap-y-16  ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-content-center w-10/12 gap-x-8 gap-y-16  ">
         {data.map((item, index) => {
           return (
             <div

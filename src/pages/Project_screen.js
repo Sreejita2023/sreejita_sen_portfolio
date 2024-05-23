@@ -19,9 +19,9 @@ function P_page() {
         <div className="w-full grid grid-cols-1  ">
           {/* head */}
           <div className="flex flex-col items-center py-20 gap-y-4">
-             <div className="text-black tracking-tighter font-extrabold text-[20px] uppercase" >Explore my Techstack</div>
-             <div className="text-[#5928E5] tracking-tighter font-extrabold text-[50px] uppercase">My Major Projects</div>
-             <div className="tracking-wider w-6/12  text-center">With our ready-to-use assets & step-by-step instructions, you’ll be designing a complete e-commerce website with all its bells and whistles…</div>
+             <div className="text-black tracking-tighter font-extrabold text-[20px] uppercase text-center" >Explore my Techstack</div>
+             <div className="text-[#5928E5] tracking-tighter font-extrabold text-[50px] uppercase text-center">My Major Projects</div>
+             <div className="tracking-wider w-6/12  text-center">Explore a showcase of my latest projects built with cutting-edge technologies and diverse programming languages...</div>
           </div>
           {projectsData.map((data, index) => {
             return (
@@ -73,7 +73,7 @@ function P_page() {
           {/* foot */}
           <div className="flex flex-col items-center py-32 gap-y-10 bg-[#FFD9D9]">
              <div className="text-[#5928E5] tracking-tighter font-extrabold text-[30px] uppercase">My Major Projects</div>
-             <div className="tracking-wider w-6/12  text-center">With our ready-to-use assets & step-by-step instructions, you’ll be designing a complete e-commerce website with all its bells and whistles…</div>
+             <div className="tracking-wider w-6/12  text-center">Dive into my GitHub profile to discover a variety of innovative projects. See how I’ve transformed unique ideas into functional and exciting applications!</div>
              <button
                   className='bg-[#5928E5] rounded-sm text-center text-[#FFD9D9] text-sm font-black capitalize tracking-tight px-10 py-4 transition duration-300 ease-in-out hover:text-white hover:scale-x-110 hover:tracking-wide'
                   onClick={() => openInNewTab(contactsData.github)}

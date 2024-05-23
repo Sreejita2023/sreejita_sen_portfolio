@@ -37,13 +37,6 @@ function Testimonial() {
                 key={d.name}
                 className="p-8 relative mt-20 text-black bg-[#FFD9D9]  "
               >
-                {/* <img
-                  src={blur}
-                  alt="Hero"
-                  width={1080}
-                  height={200}
-                  className="absolute bottom-0  opacity-80"
-                /> */}
                 <div className="  flex justify-center items-center rounded-t-xl">
                   <img
                     src={d.image}

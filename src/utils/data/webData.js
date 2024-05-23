@@ -45,7 +45,7 @@ export const data=[
   ]
 
 export  const heading={
-  webtitle :"Web development covers websites and web apps, encompassing front-end, back-end, and full-stack expertise.",
+  webtitle :"Development covers websites,web apps and mobile apps, encompassing front-end, back-end, and full-stack expertise.",
   progtitle:"C++ offers powerful tools like classes, templates, and libraries, ideal for effective data structure implementation in programs."
 }
 

@@ -9,9 +9,9 @@ export const testimonialsData =[
     },
     {
         id: 2,
-        name: 'Founder',
+        name: 'Ria Tomar',
         title: 'EZHORECA SOLUTONS PVT LTD',
-        text: "Sreejita is methodical and hard working with good clarity of the work. She has done the front end development for our Video Monitoring Software. She has worked diligently on this development work.",
+        text: "Sreejita has been exposed to various tasks & technologies and was found diligent, hardworking & inquisitive.Her major work area included designing & developing fully functional, reliable & scalable customer facing applications.",
         image:"https://media.licdn.com/dms/image/C4D0BAQEWnrOXgtPd-g/company-logo_200_200/0/1663754276756/tiffinshala_logo?e=1724284800&v=beta&t=L-aLZomPj9c9F4DGzLSW3oc4apT0k_Vt-7LJWsIQhnw",
         link:'https://www.linkedin.com/in/sreejita-sen/'
     },

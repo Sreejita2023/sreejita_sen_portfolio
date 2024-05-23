@@ -26,9 +26,9 @@ function A_page() {
             {contactsData.aboutMe}
           </div>
         </div>
-        <img className="py-8"
+        <img alt="photo of girl"
           src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
-          className=" lg:w-7/12 md:w-9/12 w-10/12  mb-4"
+          className=" lg:w-7/12 md:w-9/12 w-10/12  mb-4 py-8"
         />
       </div>
       <div className="bg-red-100 grid lg:grid-cols-3 grid-cols-1 place-items-center items-center gap-y-4 py-8">
