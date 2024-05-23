@@ -71,7 +71,7 @@ export default function TemporaryDrawer() {
           <ListItemIcon>
                  <CloudIcon />
               </ListItemIcon>
-            <ListItemText><NavLink to="/skill/web">Skills</NavLink></ListItemText>
+            <ListItemText><NavLink to="/skill">Skills</NavLink></ListItemText>
           </ListItemButton>
         </ListItem>
         <Divider />

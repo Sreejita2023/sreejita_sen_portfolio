@@ -4,8 +4,7 @@ import prog from "../../assests/prog.png";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import Skills_Slider from "../skill_slider/base";
-import { progHeading } from "../../utils/data/progData";
-import { webHeading } from "../../utils/data/webData";
+import { heading } from "../../utils/data/webData";
 function Skills() {
   return (
     <div className="bg-white left-0 right-0 relative flex flex-col items-center z-10 px-4 py-20 ">
@@ -19,7 +18,7 @@ function Skills() {
         <Skills_Slider />
       </div>
       <div className="flex lg:flex-row  lg:justify-around flex-col items-center gap-y-10 w-11/12 py-10">
-        <NavLink to="/skill/web">
+        <NavLink to="/skill">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -33,11 +32,11 @@ function Skills() {
               </div>
             </div>
             <div className="AgencyIsABusiness text-opacity-60 text-base font-normal  leading-loose mb-2">
-              {webHeading.title}
+              {heading.webtitle}
             </div>
           </motion.div>
         </NavLink>
-        <NavLink to="/skill/programming">
+        <NavLink to="/skill">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -51,7 +50,7 @@ function Skills() {
               </div>
             </div>
             <div className="AgencyIsABusiness  text-orange-950 text-opacity-60 text-base font-normal leading-loose mb-2">
-              {progHeading.title}
+              {heading.progtitle}
             </div>
           </motion.div>
         </NavLink>

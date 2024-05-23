@@ -32,7 +32,6 @@ function C_page() {
           />
         </div>
       </div>
-      <div className="Rectangle w-10/12 h-px mx-auto block  bg-red-200" />
     </div>
   );
 }

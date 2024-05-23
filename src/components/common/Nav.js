@@ -30,7 +30,7 @@ function Nav() {
           Projects
           </NavLink>
           <NavLink
-            to="/skill/web"
+            to="/skill"
             className="cursor-pointer transition ease-in-out duration-300 hover:border-[#5928E5] hover:border hover:scale-105 rounded-md hover:text-[#5928E5]"
           >
           Skills

@@ -30,7 +30,7 @@ function P_page() {
                   <img
                     src={data.image}
                     alt="Logo"
-                    className=" w-[700px] h-[500px] scale-150 self-center"
+                    className=" w-10/12  scale-150 self-center"
                   />
                 </div>
                 <div

@@ -14,33 +14,33 @@ function A_page() {
 
   return (
     <div>
-      <div className=" bg-orange-50 flex flex-col items-center py-10">
-        <div className="flex flex-col items-start gap-y-4 py-3 px-5 ">
-          <div className="GabrielPires text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px]">
+      <div className=" bg-white flex flex-col items-center py-10 font-['Helvetica']">
+        <div className="flex flex-col items-start gap-y-4 py-10 px-5 ">
+          <div className="GabrielPires text-black text-base font-extrabold uppercase leading-loose tracking-[3px]">
             {contactsData.name}
           </div>
-          <div className="ProfessionalWebDes max-w-[570px]  text-orange-950 text-[56px] font-extrabold font-['Epilogue'] leading-[64px]">
+          <div className="ProfessionalWebDes max-w-[570px]  text-[#5928E5] text-[56px] font-extrabold leading-[64px] tracking-tight">
           Hello, World! 
           </div>
-          <div className="AbilityToPutThems max-w-[570px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">
+          <div className="AbilityToPutThems max-w-[570px] text-orange-950 text-opacity-60 text-base font-normal leading-loose">
             {contactsData.aboutMe}
           </div>
         </div>
-        <img
+        <img className="py-8"
           src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"
           className=" lg:w-7/12 md:w-9/12 w-10/12  mb-4"
         />
       </div>
-      <div className="bg-red-100 grid lg:grid-cols-3 grid-cols-1 place-items-center items-center gap-y-4 py-2">
+      <div className="bg-red-100 grid lg:grid-cols-3 grid-cols-1 place-items-center items-center gap-y-4 py-8">
         <div className="flex flex-col lg:items-start items-center gap-y-2">
-          <div className="  text-orange-950 text-2xl font-bold font-['Epilogue'] leading-loose">
+          <div className="  text-black text-2xl font-bold leading-loose tracking-tighter">
             I Help Companies Move Faster
           </div>
-          <button className='bg-red-400  px-6 py-3 rounded-md text-center text-white text-sm font-black font-["Epilogue"] uppercase'>
-            <NavLink to="/contact">Contact Me</NavLink>
-          </button>
+          <NavLink to="/contact"><button className='bg-[#5928E5] rounded-sm text-center text-[#FFD9D9] text-sm font-black uppercase px-10 py-4 transition duration-300 ease-in-out hover:bg-black hover:scale-x-110'>
+            Contact Me
+          </button></NavLink>
         </div>
-        <div className="PutThemselvesInTh w-[370px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">
+        <div className="PutThemselvesInTh w-[370px] text-orange-950 text-opacity-60 text-base font-normal leading-loose">
           Thank you for taking the time to review my profile. Your attention to
           my accomplishments and skills is greatly appreciated.
         </div>
