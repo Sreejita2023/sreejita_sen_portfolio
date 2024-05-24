@@ -7,7 +7,7 @@ export default function LinePie() {
   const ranks=[];
   const contestsName=[];
   contestParticipation.map(item => {
-    ranks.push(item.rating);
+    ranks.push(Math.ceil(item.rating));
     contestsName.push(item.contest.title)
   });
   console.log(ranks);
