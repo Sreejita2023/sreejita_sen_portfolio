@@ -50,7 +50,7 @@ function Home() {
           </div>
           <div
             className="cursor-pointer w-9 h-9 hover:scale-110 transition duration-300 ease-in-out"
-            onClick={() => openInNewTab(contactsData.github)}
+            onClick={() => openInNewTab(contactsData.twitter)}
           >
             <img src={xtwitter} />
           </div>
