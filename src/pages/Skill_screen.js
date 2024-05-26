@@ -57,7 +57,7 @@ function S_page() {
         </div>
       </div>
       {/* leetcode contests */}
-      <div className="w-10/12">
+      <div className="w-10/12 scale-x-110 md:scale-100">
          <LineChart/>
       </div>
     </div>

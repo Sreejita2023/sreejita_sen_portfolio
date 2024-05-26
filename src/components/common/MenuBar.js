@@ -44,71 +44,75 @@ export default function TemporaryDrawer() {
     >
       <List>
          {/* Home */}
-         <ListItem disablePadding>
-          <ListItemButton>
-          <ListItemIcon>
-                <HouseIcon />
+         <NavLink to="/"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
+          <ListItemIcon >
+                <HouseIcon  sx={{ color: '#5928E5' }}  />
               </ListItemIcon>
-            <ListItemText><NavLink to="/">Home</NavLink></ListItemText>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>Home</ListItemText>
           </ListItemButton>
-        </ListItem>
+        </ListItem></NavLink>
         <Divider />
 
         {/* Project */}
-        <ListItem disablePadding>
-          <ListItemButton>
+        <NavLink to="/project"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
           <ListItemIcon>
-                 <FolderCopyIcon />
+                 <FolderCopyIcon sx={{ color: '#5928E5' }}/>
               </ListItemIcon>
-            <ListItemText><NavLink to="/project">Projects</NavLink></ListItemText>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>Projects</ListItemText>
           </ListItemButton>
-        </ListItem>
+        </ListItem></NavLink>
         <Divider />
 
         {/* Skills */}
-        <ListItem disablePadding>
-          <ListItemButton>
+        <NavLink to="/skill"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
           <ListItemIcon>
-                 <CloudIcon />
+                 <CloudIcon sx={{ color: '#5928E5' }}/>
               </ListItemIcon>
-            <ListItemText><NavLink to="/skill">Skills</NavLink></ListItemText>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>Skills</ListItemText>
           </ListItemButton>
-        </ListItem>
+        </ListItem></NavLink>
         <Divider />
 
-        {/* About */}
-        <ListItem disablePadding>
-          <ListItemButton>
+         {/*Experience */}
+         <NavLink to="/experience"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
           <ListItemIcon>
-                  <AccountCircleIcon />
+                  <WorkIcon sx={{ color: '#5928E5' }}/>
               </ListItemIcon>
-            <ListItemText><NavLink to="/about">About Me</NavLink></ListItemText>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>Experience</ListItemText>
           </ListItemButton>
-        </ListItem>
+        </ListItem></NavLink>
         <Divider />
 
-        {/*Experience */}
-        <ListItem disablePadding>
-          <ListItemButton>
+      {/* Contact */}
+      <NavLink to="/contact"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
           <ListItemIcon>
-                  <WorkIcon/>
+                <PermPhoneMsgIcon sx={{ color: '#5928E5' }} />
               </ListItemIcon>
-            <ListItemText><NavLink to="/experience">Experience</NavLink></ListItemText>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>Contact Me</ListItemText>
           </ListItemButton>
-        </ListItem>
-        <Divider />
-
-        {/* Contact */}
-        <ListItem disablePadding>
-          <ListItemButton>
-          <ListItemIcon>
-                <PermPhoneMsgIcon />
-              </ListItemIcon>
-            <ListItemText><NavLink to="/contact">Contact Me</NavLink></ListItemText>
-          </ListItemButton>
-        </ListItem>
+        </ListItem></NavLink>
         <Divider />
       </List>
+
+
+        {/* About */}
+        <NavLink to="/about"><ListItem disablePadding>
+          <ListItemButton sx={{ py: 2}}>
+          <ListItemIcon>
+                  <AccountCircleIcon sx={{ color: '#5928E5' }} />
+              </ListItemIcon>
+            <ListItemText  primaryTypographyProps={{ fontWeight: '500' }}>About Me</ListItemText>
+          </ListItemButton>
+        </ListItem></NavLink>
+        <Divider />
+
+       
+        
       
     </Box>
   );
