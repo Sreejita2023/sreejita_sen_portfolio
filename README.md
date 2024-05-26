@@ -1,5 +1,8 @@
 # React & Tailwind CSS Starter Pack
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1eb92dff-5321-4152-a6d9-14d3c7f563da/deploy-status)](https://app.netlify.com/sites/sreejitaport/deploys)
+
+
 This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
 ## Usage
