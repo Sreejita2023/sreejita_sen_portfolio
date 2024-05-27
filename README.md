@@ -1,6 +1,8 @@
-# React & Tailwind CSS Starter Pack
+# My Portfolio Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1eb92dff-5321-4152-a6d9-14d3c7f563da/deploy-status)](https://app.netlify.com/sites/sreejitaport/deploys)
+
+[Visit Now](https://sreejita-portfolio.netlify.app/) 🚀
 
 ## 🖥️ Tech Stack
 **Frontend:**
