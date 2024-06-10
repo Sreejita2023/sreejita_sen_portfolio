@@ -1,9 +1,18 @@
-# React & Tailwind CSS Starter Pack
+# My Portfolio Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1eb92dff-5321-4152-a6d9-14d3c7f563da/deploy-status)](https://app.netlify.com/sites/sreejitaport/deploys)
 
+[Visit Now](https://sreejita-portfolio.netlify.app/) 🚀
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+## 🖥️ Tech Stack
+**Frontend:**
+
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
+![mui](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)&nbsp;
+![chart-js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)&nbsp;
+
 
 ## Usage
 
