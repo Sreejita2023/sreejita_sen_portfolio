@@ -21,11 +21,11 @@ function Footer() {
             Contact Details
           </div>
           {/* phone */}
-          <div className="cursor-pointer font-medium tracking-wider text-base text-white hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300">{contactsData.phone}</div>
+          <div className=" font-medium tracking-wider text-base text-white ">{contactsData.phone}</div>
           {/* email */}
-          <div className="cursor-pointer font-medium tracking-wider text-base text-white hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300">{contactsData.email}</div>
+          <div className=" font-medium tracking-wider text-base text-white ">{contactsData.email}</div>
           {/* address */}
-          <div className="cursor-pointer font-medium tracking-wider text-base text-white hover:text-[#FFD9D8] hover:underline-offset-4 hover:scale-105 hover:underline transition ease-in-out duration-300">{contactsData.address}</div>
+          <div className=" font-medium tracking-wider text-base text-white ">{contactsData.address}</div>
 
         </div>
         {/* social details */}
