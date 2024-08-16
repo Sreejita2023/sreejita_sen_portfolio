@@ -9,7 +9,7 @@ export const experiences = [
       duration: "(February 2024 - April 2024)",
       link:'https://play.google.com/store/apps/details?id=com.tiffinshala.app&hl=en_US&pli=1',
       techstack:'Flutter,Dart,Android Studio,Firebase,Git',
-      details:' Developed delivery and order screens for a delivery app using Flutter and Dart in Android Studio.Implemented Firebase for dynamic data collection,storage and authentication,enhancing app functionality.Utilized SDKs and GitHub for contributing to streamlined project management and collaboration.',
+      details:'Created 20+ userfriendly delivery and order screens, contributing to  increase in daily and monthly active users through improved navigation flow and the addition of real-time order tracking features.Built secure and efficient front-end and back-end APIs for delivery based app ensuring a seamless payment experience with PhonePe and meeting all project deadlines.',
       image:tiffinshala,
 
     },
@@ -22,7 +22,7 @@ export const experiences = [
       duration: "(November 2024- January 2024)",
       link:'https://www.aionasset.in/TSDPL/public/',
       techstack:'ReactJs,Javascript,Tailwind CSS,Git',
-      details:'Designed and developed an intuitive UI/UX using React.js and Tailwind CSS for Ai on Asset innovative video surveillance project, enhancing usability and user experience.Led the implementation of safety measures in a construction site surveillance project, resulting in a 5% reduction in safety incidents. Collaborated in a team project and completed every task before deadline',
+      details:'Reduced user onboarding time for an AI based Human Safety Monitoring website by enhancing user satisfaction by simplifying navigation and streamlining the registration process. Worked with a cross-functional team to design and develop responsive and adaptive web pages, using user feedback and testing results to refine features and improve functionality',
       image:aionasset,
     },
   ]

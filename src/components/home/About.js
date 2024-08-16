@@ -21,7 +21,7 @@ function About() {
           <motion.img
             initial={{ scale: 0.84 }}
             whileInView={{ scale: 0.94 }}
-            transition={{ ease: "anticipate", duration: 4, delay: 0 }}
+            transition={{ ease: "anticipate", duration: 2, delay: 0 }}
             src={aboutData.photo1}
           ></motion.img>
         </div>
@@ -31,7 +31,7 @@ function About() {
           <motion.img
             initial={{ scale: 0.84 }}
             whileInView={{ scale: 0.94 }}
-            transition={{ ease: "anticipate", duration: 4, delay: 0 }}
+            transition={{ ease: "anticipate", duration: 2, delay: 0 }}
             src={aboutData.photo2}
           ></motion.img>
         </div>
@@ -59,7 +59,7 @@ function About() {
           <motion.img
             initial={{ scale: 0.84 }}
             whileInView={{ scale: 0.94 }}
-            transition={{ ease: "anticipate", duration: 4, delay: 0 }}
+            transition={{ ease: "anticipate", duration: 2, delay: 0 }}
             src={aboutData.photo3}
           ></motion.img>
         </div>

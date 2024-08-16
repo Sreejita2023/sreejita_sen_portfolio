@@ -47,13 +47,16 @@ function P_page() {
                       className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                       onClick={() => openInNewTab(data.code)}
                     />
-                    <img
+                    {
+                      data.demo!=""?<img
                       src={web}
                       width={36}
                       height={36}
                       className="cursor-pointer hover:scale-110 transition duration-300 ease-in-out"
                       onClick={() => openInNewTab(data.demo)}
-                    />
+                    />:""
+                    }
+                    
                   </div>
                   <div className="text-lg  font-normal leading-loose text-white">
                     <span className="font-semibold tracking-tight">
