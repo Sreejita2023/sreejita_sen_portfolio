@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { educations } from "../../utils/data/educationData";
 import eduIcon from "../../assests/education/education_icon.svg"
-import SchoolIcon from '@mui/icons-material/School';
 
-import laptop from "../../assests/education/laptop.jpg";
+
+import laptop from "../../assests/education/laptop.webp";
 function Education() {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer");

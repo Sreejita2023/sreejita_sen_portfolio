@@ -2,7 +2,7 @@ export const educations = [
     {
       id: 1,
       title: "Bachelor of technology in Information Technology",
-      duration: "2021 - Expected Grad.2025",
+      duration: "2021 - 2025",
       institution: "JSS Academy of Technical Education, Sector 62, Noida, Uttar Pradesh 201301",
     },
     {

@@ -28,6 +28,7 @@ function E_page() {
                   src={data.image}
                   alt="Logo"
                   className=" w-[580px] h-[400px] "
+                  loading="lazy"
                 />
               </div>
               <div

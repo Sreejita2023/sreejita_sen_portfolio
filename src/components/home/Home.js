@@ -1,5 +1,5 @@
 import React from "react";
-import group from "../../assests/group2.png";
+import group from "../../assests/group2.webp";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import DownloadIcon from "@mui/icons-material/Download";
@@ -83,6 +83,7 @@ function Home() {
           src={group}
           alt="Logo"
           className=" w-[360px] h-[440px] "
+          loading="lazy"
         />
       </div>
     </div>

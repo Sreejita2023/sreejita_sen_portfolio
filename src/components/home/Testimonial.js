@@ -35,7 +35,7 @@ function Testimonial() {
             {testimonialsData.map((d) => (
               <div
                 key={d.name}
-                className="p-8 relative mt-20 text-black bg-[#FFD9D9]  "
+                className="p-8 relative mt-20 text-black bg-[#FFD9D9]  h-[400px] w-[300px] "
               >
                 <div className="  flex justify-center items-center rounded-t-xl">
                   <img
