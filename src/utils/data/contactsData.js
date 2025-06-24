@@ -7,6 +7,6 @@ export const contactsData = {
     linkedIn: 'https://www.linkedin.com/in/sreejita-sen/',
     leetcode:'https://leetcode.com/u/sreejita12/',
     twitter:'https://x.com/sree55901',
-    resume: 'https://drive.google.com/file/d/1ylVQOBh1Iy2bGCI3wXGGDdg0LF7lxEJZ/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1itGYHux6GDVxtPHASXknrG9O0MUMUp3P/view?usp=sharing',
     aboutMe:'Hello, I am a final year B.Tech student specializing in Information Technology at JSS Academy of Technical Education, Noida.Proficiency in React, Nodejs, MongoDB, and Express.js defines my skill set. I have a strong inclination towards competitive coding,regularly practicing on LeetCode and GeeksforGeeks. This has honed my expertise in data structures, algorithms, database management systems, and operating systems.'
 }
